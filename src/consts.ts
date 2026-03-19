@@ -48,104 +48,103 @@ export const SITE: Site = {
 
 export const HEADER_LINKS: Link[] = [
   {
-    name: "Home",
-    icon: "bi:house",
+    name: 'Home',
+    icon: 'bi:house',
     href: import.meta.env.BASE_URL
   },
   {
-    name: "Posts",
-    icon: "bi:globe",
-    href: "/posts/"
+    name: 'Posts',
+    icon: 'bi:globe',
+    href: '/posts/'
   },
   {
-    name: "Tags",
-    icon: "bi:tags-fill",
-    href: "/tags/"
+    name: 'Tags',
+    icon: 'bi:tags-fill',
+    href: '/tags/'
   },
   {
-    name: "About",
-    icon: "bi:person-circle",
-    href: "/about/"
+    name: 'About',
+    icon: 'bi:person-circle',
+    href: '/about/'
   },
   {
-    name: "Github",
-    icon: "bi:github",
-    href: "https://github.com/masputrawae/i-think-astro-theme",
-    target: "_blank"
+    name: 'Github',
+    icon: 'bi:github',
+    href: 'https://github.com/masputrawae/i-think-astro-theme',
+    target: '_blank'
   }
 ]
 
 export const FOOTER_LINKS: Link[] = [
   {
-    name: "Disclaimer",
-    icon: "bi:exclamation-circle",
-    href: "/disclaimer/"
+    name: 'Disclaimer',
+    icon: 'bi:exclamation-circle',
+    href: '/disclaimer/'
   },
   {
-    name: "Term of Service",
-    icon: "bi:info-circle",
-    href: "/term-of-service/"
+    name: 'Term of Service',
+    icon: 'bi:info-circle',
+    href: '/term-of-service/'
   },
   {
-    name: "Privacy Police",
-    icon: "bi:shield-lock",
-    href: "/privacy-police/"
+    name: 'Privacy Police',
+    icon: 'bi:shield-lock',
+    href: '/privacy-police/'
   },
   {
-    name: "About",
-    icon: "bi:person-circle",
-    href: "/about/"
+    name: 'About',
+    icon: 'bi:person-circle',
+    href: '/about/'
   },
   {
-    name: "Email",
-    icon: "bi:envelope-at-fill",
-    href: "mailto:johndoe@mail.example"
-  },
+    name: 'Email',
+    icon: 'bi:envelope-at-fill',
+    href: 'mailto:johndoe@mail.example'
+  }
 ]
 
 export const SOCIAL_LINKS: Link[] = [
   {
-    name: "Twitter X",
-    icon: "bi:twitter-x",
-    href: "https://x.com",
-    target: "_blank"
+    name: 'Twitter X',
+    icon: 'bi:twitter-x',
+    href: 'https://x.com',
+    target: '_blank'
   },
   {
-    name: "Instagram",
-    icon: "bi:instagram",
-    href: "https://instagram.com",
-    target: "_blank"
+    name: 'Instagram',
+    icon: 'bi:instagram',
+    href: 'https://instagram.com',
+    target: '_blank'
   },
   {
-    name: "Github",
-    icon: "bi:github",
-    href: "https://github.com/masputrawae/i-think-astro-theme",
-    target: "_blank"
+    name: 'Github',
+    icon: 'bi:github',
+    href: 'https://github.com/masputrawae/i-think-astro-theme',
+    target: '_blank'
   }
 ]
 
 export const FAVICONS: HTMLAttributes<'link'>[] = [
   {
-    rel: "apple-touch-icon",
-    sizes: "180x180",
-    href: "/apple-touch-icon.png"
+    rel: 'apple-touch-icon',
+    sizes: '180x180',
+    href: '/apple-touch-icon.png'
   },
   {
-    rel: "icon",
-    type: "image/png",
-    sizes: "32x32",
-    href: "/favicon-32x32.png"
+    rel: 'icon',
+    type: 'image/png',
+    sizes: '32x32',
+    href: '/favicon-32x32.png'
   },
   {
-    rel: "icon",
-    type: "image/png",
-    sizes: "16x16",
-    href: "/favicon-16x16.png"
+    rel: 'icon',
+    type: 'image/png',
+    sizes: '16x16',
+    href: '/favicon-16x16.png'
   },
   {
-    rel: "icon",
-    type: "image/x-icon",
-    href: "/favicon.ico"
-  },
+    rel: 'icon',
+    type: 'image/x-icon',
+    href: '/favicon.ico'
+  }
 ]
-
