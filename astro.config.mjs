@@ -1,42 +1,42 @@
 // @ts-check
-import { defineConfig, fontProviders, passthroughImageService } from 'astro/config';
+import { defineConfig, fontProviders, passthroughImageService } from 'astro/config'
 
-import tailwindcss from "@tailwindcss/vite";
+import tailwindcss from '@tailwindcss/vite'
 
-import sitemap from "@astrojs/sitemap";
+import sitemap from '@astrojs/sitemap'
 
-import mdx from "@astrojs/mdx";
+import mdx from '@astrojs/mdx'
 
-import icon from "astro-icon";
+import icon from 'astro-icon'
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://example.com",
-  base: "/",
+  site: 'https://example.com',
+  base: '/',
 
   image: {
     service: passthroughImageService(),
     domains: ['res.cloudinary.com'],
-    remotePatterns: [{ protocol: "https" }]
+    remotePatterns: [{ protocol: 'https' }]
   },
 
   fonts: [
     {
       provider: fontProviders.google(),
-      name: "Poppins",
-      cssVariable: "--font-poppins",
+      name: 'Poppins',
+      cssVariable: '--font-poppins',
       weights: [400, 700]
     },
     {
       provider: fontProviders.google(),
-      name: "Inter",
-      cssVariable: "--font-poppins",
+      name: 'Inter',
+      cssVariable: '--font-jetbrains-mono',
       weights: [400, 500, 600, 700]
     },
     {
       provider: fontProviders.google(),
-      name: "JetBrains Mono",
-      cssVariable: "--font-jetbrains-mono",
+      name: 'JetBrains Mono',
+      cssVariable: '--font-jetbrains-mono',
       weights: [400, 700]
     }
   ],
@@ -46,4 +46,4 @@ export default defineConfig({
   },
 
   integrations: [sitemap(), mdx(), icon()]
-});
+})
