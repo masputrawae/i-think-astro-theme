@@ -1,4 +1,29 @@
 ---
+import { getCollection } from 'astro:content'
+import BaseLayout from '../layouts/BaseLayout.astro'
+import { SITE } from '../consts'
 
+const posts = (await getCollection('post')).filter((p) => p.id != 'index')
 ---
 
+<BaseLayout
+  title="Posts"
+  pageType="website"
+  tags={SITE.keywords}
+  description={SITE.description}
+  heroImage={SITE.heroImage}
+  pubDate={new Date()}
+  updatedDate={new Date()}
+>
+  <div class="prose">
+    <ul>
+      {
+        posts.map((p) => (
+          <li>
+            <a href={'/' + p.id}>{p.data.title}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</BaseLayout>
