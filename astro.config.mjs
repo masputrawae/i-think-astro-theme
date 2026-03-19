@@ -1,8 +1,15 @@
 // @ts-check
-import { defineConfig, fontProviders } from 'astro/config';
+import { defineConfig, fontProviders, passthroughImageService } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://example.com",
+  base: "/",
+  image: {
+    service: passthroughImageService(),
+    domains: ['res.cloudinary.com'],
+    remotePatterns: [{ protocol: "https" }]
+  },
   fonts: [
     {
       provider: fontProviders.google(),
