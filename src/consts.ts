@@ -1,10 +1,11 @@
 import type { HTMLAttributes } from 'astro/types'
+import HeroImage from "./assets/default-image.jpg"
 
 interface Site {
   title: string
   description: string
   langCode: string
-  heroImage: string
+  heroImage: ImageMetadata
   pageType: 'website' | 'article'
   keywords: string[]
   facebook: Facebook
@@ -37,7 +38,7 @@ export const SITE: Site = {
   title: 'I Think',
   description: 'Your site description',
   langCode: 'id',
-  heroImage: './assets/default-image.jpg',
+  heroImage: HeroImage,
   pageType: 'website',
   keywords: ['blog', 'article', 'astro'],
   author: {

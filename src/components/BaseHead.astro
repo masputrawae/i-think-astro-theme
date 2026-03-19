@@ -5,6 +5,7 @@ import { ClientRouter } from 'astro:transitions'
 import { Font } from 'astro:assets'
 import { SITE, FAVICONS } from '../consts'
 import type { HTMLAttributes } from 'astro/types'
+import { getImage } from 'astro:assets'
 
 const canonical = new URL(Astro.url.pathname, Astro.site)
 
@@ -12,7 +13,7 @@ type Props = {
   pageTitle?: string
   description?: string
   pageType?: string
-  heroImage?: string
+  heroImage?: ImageMetadata
   tags?: string[]
   pubDate?: Date
   updatedDate?: Date
@@ -28,6 +29,10 @@ const {
   updatedDate = new Date()
 } = Astro.props
 
+const image = await getImage({ src: heroImage, format: 'avif' })
+const title =
+  Astro.url.pathname == import.meta.env.BASE_URL ? SITE.title : `${pageTitle} | ${SITE.title}`
+
 const meta: HTMLAttributes<'meta'>[] = [
   // Base Meta
   { charset: 'UTF-8' },
@@ -38,27 +43,27 @@ const meta: HTMLAttributes<'meta'>[] = [
   // Open Graph | Facebook
   { property: 'og:url', content: canonical },
   { property: 'og:site_name', content: SITE.title },
-  { property: 'og:title', content: pageTitle },
+  { property: 'og:title', content: title },
   { property: 'og:description', content: description },
   { property: 'og:type', content: pageType },
-  { property: 'og:image', content: heroImage },
+  { property: 'og:image', content: image.src },
   { property: 'og:locale', content: SITE.langCode },
   { property: 'fb:app_id', content: SITE.facebook.appId },
   { property: 'fb:admins', content: SITE.facebook.admin },
 
   // Schema
-  { itemprop: 'name', content: pageTitle },
+  { itemprop: 'name', content: title },
   { itemprop: 'description', content: description },
   { itemprop: 'datePublished', content: pubDate.toISOString() },
   { itemprop: 'dateModified', content: updatedDate.toISOString() },
   { itemprop: 'wordCount', content: '' },
   { itemprop: 'keywoards', content: tags.join(',') },
-  { itemprop: 'image', content: heroImage },
+  { itemprop: 'image', content: image.src },
 
   // Twitter Cards
   { name: 'twitter:card', content: 'summary_large_image' },
-  { name: 'twitter:image', content: heroImage },
-  { name: 'twitter:title', content: pageTitle },
+  { name: 'twitter:image', content: image.src },
+  { name: 'twitter:title', content: title },
   { name: 'twitter:description', content: description },
   { name: 'twitter:site', content: SITE.author.twitter }
 ]
@@ -66,6 +71,8 @@ const meta: HTMLAttributes<'meta'>[] = [
 
 {meta.map((m) => <meta {...m} />)}
 {FAVICONS.map((f) => <link {...f} />)}
+
+<title>{title}</title>
 <Font cssVariable="--font-poppins" preload />
 <Font cssVariable="--font-inter" preload />
 <Font cssVariable="--font-jetbrains-mono" />
