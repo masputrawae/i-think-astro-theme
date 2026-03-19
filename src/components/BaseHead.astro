@@ -1,0 +1,72 @@
+---
+import '../styles/global.css'
+
+import { ClientRouter } from 'astro:transitions'
+import { Font } from 'astro:assets'
+import { SITE, FAVICONS } from '../consts'
+import type { HTMLAttributes } from 'astro/types'
+
+const canonical = new URL(Astro.url.pathname, Astro.site)
+
+type Props = {
+  pageTitle?: string
+  description?: string
+  pageType?: string
+  heroImage?: string
+  tags?: string[]
+  pubDate?: Date
+  updatedDate?: Date
+}
+
+const {
+  pageTitle = SITE.title,
+  description = SITE.description,
+  pageType = SITE.pageType,
+  heroImage = SITE.heroImage,
+  tags = SITE.keywords,
+  pubDate = new Date(),
+  updatedDate = new Date()
+} = Astro.props
+
+const meta: HTMLAttributes<'meta'>[] = [
+  // Base Meta
+  { charset: 'UTF-8' },
+  { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+  { name: 'description', content: description },
+  { name: 'keywords', content: tags.join(',') },
+
+  // Open Graph | Facebook
+  { property: 'og:url', content: canonical },
+  { property: 'og:site_name', content: SITE.title },
+  { property: 'og:title', content: pageTitle },
+  { property: 'og:description', content: description },
+  { property: 'og:type', content: pageType },
+  { property: 'og:image', content: heroImage },
+  { property: 'og:locale', content: SITE.langCode },
+  { property: 'fb:app_id', content: SITE.facebook.appId },
+  { property: 'fb:admins', content: SITE.facebook.admin },
+
+  // Schema
+  { itemprop: 'name', content: pageTitle },
+  { itemprop: 'description', content: description },
+  { itemprop: 'datePublished', content: pubDate.toISOString() },
+  { itemprop: 'dateModified', content: updatedDate.toISOString() },
+  { itemprop: 'wordCount', content: '' },
+  { itemprop: 'keywoards', content: tags.join(',') },
+  { itemprop: 'image', content: heroImage },
+
+  // Twitter Cards
+  { name: 'twitter:card', content: 'summary_large_image' },
+  { name: 'twitter:image', content: heroImage },
+  { name: 'twitter:title', content: pageTitle },
+  { name: 'twitter:description', content: description },
+  { name: 'twitter:site', content: SITE.author.twitter }
+]
+---
+
+{meta.map((m) => <meta {...m} />)}
+{FAVICONS.map((f) => <link {...f} />)}
+<Font cssVariable="--font-poppins" preload />
+<Font cssVariable="--font-inter" preload />
+<Font cssVariable="--font-jetbrains-mono" />
+<ClientRouter />
