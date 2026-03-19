@@ -1,5 +1,5 @@
 import type { HTMLAttributes } from 'astro/types'
-import HeroImage from "./assets/default-image.jpg"
+import HeroImage from './assets/default-image.jpg'
 
 interface Site {
   title: string
