@@ -1,13 +1,22 @@
 ---
-import { SITE } from '../consts'
+import type { CollectionEntry } from 'astro:content'
+import Head from '../components/base/Head.astro'
 
-import BaseHead from '../components/BaseHead.astro'
+type Props = CollectionEntry<'post'>['data']
+const { title, pageType, description, pubDate, updatedDate, heroImage } = Astro.props
 ---
 
 <!doctype html>
-<html lang={SITE.langCode}>
+<html>
   <head>
-    <BaseHead />
+    <Head
+      pageTitle={title}
+      pageType={pageType}
+      description={description}
+      pubDate={pubDate}
+      updatedDate={updatedDate}
+      image={heroImage}
+    />
   </head>
   <body>
     <slot />

@@ -8,7 +8,6 @@ interface Site {
   heroImage: ImageMetadata
   pageType: 'website' | 'article'
   keywords: string[]
-  facebook: Facebook
   author: Author
   copyright: Copyright
 }
@@ -45,10 +44,6 @@ export const SITE: Site = {
     name: 'John Doe',
     email: 'johndoe@email.example',
     twitter: '@johndoe'
-  },
-  facebook: {
-    appId: '',
-    admin: ''
   },
   copyright: {
     license: 'CC BY-NC-SA 4.0',

@@ -1,0 +1,56 @@
+---
+import { getCollection } from 'astro:content'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import type { CollectionEntry } from 'astro:content'
+import { SITE } from '../../consts'
+import { toUpperCase } from 'astro:schema'
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('post')
+  const uniqueTags = [...new Set(allPosts.map((post) => post.data.tags).flat())]
+  return uniqueTags.map((tag: any) => {
+    const filteredPosts: CollectionEntry<'post'>[] = allPosts.filter((post) =>
+      post.data.tags?.includes(tag)
+    )
+    return {
+      params: { tag },
+      props: { posts: filteredPosts }
+    }
+  })
+}
+
+const { tag } = Astro.params
+const { posts } = Astro.props
+
+function toTitleCase(str: string) {
+  return str
+    .replace(/[_-]/g, ' ')
+    .toLowerCase()
+    .split(' ')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')
+}
+---
+
+<BaseLayout
+  title={tag}
+  pageType="website"
+  tags={SITE.keywords}
+  description={SITE.description}
+  heroImage={SITE.heroImage}
+  pubDate={new Date()}
+  updatedDate={new Date()}
+>
+  <div class="prose">
+    <h1>{toTitleCase(tag)}</h1>
+    <ul>
+      {
+        posts.map((p) => (
+          <li>
+            <a href={`/${p.id}`}>{p.data.title}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</BaseLayout>
