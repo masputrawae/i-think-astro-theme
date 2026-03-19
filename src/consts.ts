@@ -4,10 +4,11 @@ interface Site {
   title: string
   description: string
   langCode: string
-  author: Author
   heroImage: string
   pageType: 'website' | 'article'
   keywords: string[]
+  facebook: Facebook
+  author: Author
   copyright: Copyright
 }
 
@@ -21,6 +22,11 @@ interface Author {
   name: string
   email: string
   twitter: string
+}
+
+interface Facebook {
+  appId: string
+  admin: string
 }
 
 interface Link extends HTMLAttributes<'a'> {
@@ -38,6 +44,10 @@ export const SITE: Site = {
     name: 'John Doe',
     email: 'johndoe@email.example',
     twitter: '@johndoe'
+  },
+  facebook: {
+    appId: '',
+    admin: ''
   },
   copyright: {
     license: 'CC BY-NC-SA 4.0',
