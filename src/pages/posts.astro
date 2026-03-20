@@ -16,7 +16,7 @@ const posts = (await getCollection('post')).filter((p) => p.id != 'index')
   updatedDate={new Date()}
 >
   <div class="not-prose">
-    <ul class="text-purple-600 dark:text-purple-400 space-y-1">
+    <ul class="space-y-1 text-purple-600 dark:text-purple-400">
       {
         posts.map((p) => (
           <li
