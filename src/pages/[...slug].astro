@@ -1,7 +1,7 @@
 ---
-import { Image } from 'astro:assets'
 import BaseLayout from '../layouts/BaseLayout.astro'
 import { type CollectionEntry, getCollection, render } from 'astro:content'
+import { Picture } from 'astro:assets'
 
 export async function getStaticPaths() {
   const posts = await getCollection('post')
@@ -18,16 +18,29 @@ const { data } = post
 ---
 
 <BaseLayout {...data}>
-  <header>
-    <h1>{data.title}</h1>
-    <Image
-      src={data.heroImage}
-      alt={data.title}
-      layout="constrained"
-      fetchpriority="high"
-      format="avif"
-      loading="eager"
-    />
-  </header>
-  <Content />
+  <article>
+    <header class="text-center">
+      <h1>{data.title}</h1>
+      <Picture
+        src={data.heroImage}
+        alt={data.title}
+        loading="eager"
+        layout="constrained"
+        fetchpriority="high"
+        format="avif"
+        formats={['avif', 'webp']}
+        inferSize={true}
+        class:list={['aspect-video rounded-lg shadow-sm/50', 'dark:shadow-sm/100']}
+      />
+    </header>
+    <section>
+      <Content />
+    </section>
+    <footer>
+      <time datetime={data.pubDate.toISOString()}>
+        <span>Publish On</span>
+        <span>{data.pubDate.toDateString()}</span>
+      </time>
+    </footer>
+  </article>
 </BaseLayout>

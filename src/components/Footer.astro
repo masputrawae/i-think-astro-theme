@@ -1,15 +1,30 @@
 ---
-import { SITE } from '../consts'
+import { Icon } from 'astro-icon/components'
+import { SITE, SOCIAL_LINKS } from '../consts'
 
 const { copyright } = SITE
 ---
 
-<footer>
-  <aside>
-    <p>
-      <span>Copyright (c) 2026 {SITE.author.name}.</span>
-      <span>License under</span>
-      <a href={copyright.url}>{copyright.license}</a>
-    </p>
-  </aside>
+<footer class:list={['font-poppins border-t border-neutral-200', 'dark:border-neutral-700']}>
+  <div class="px-4 py-8">
+    <nav class:list={['flex items-center justify-center gap-4 text-black', 'dark:text-white']}>
+      {
+        SOCIAL_LINKS.map((s) => (
+          <a {...s} class="hover:text-blue-600 dark:hover:text-blue-400">
+            <Icon name={s.icon} size={28} />
+            <span class="sr-only">{s.name}</span>
+          </a>
+        ))
+      }
+    </nav>
+    <aside class:list={['mx-auto px-4 py-8 text-center']}>
+      <p class="text-sm">
+        <span>Copyright &copy; 2026 {SITE.author.name}.</span>
+        <span>License under</span>
+        <a href={copyright.url} class="underline hover:text-blue-600 dark:hover:text-blue-400">
+          {copyright.license}
+        </a>
+      </p>
+    </aside>
+  </div>
 </footer>

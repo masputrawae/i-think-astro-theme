@@ -12,7 +12,7 @@ const { title, pageType, description, pubDate, updatedDate, heroImage } = Astro.
 ---
 
 <!doctype html>
-<html data-theme="dark" lang={SITE.langCode}>
+<html data-theme="light" lang={SITE.langCode} class="scroll-pt-4 scroll-smooth">
   <head>
     <Head
       pageTitle={title}
@@ -27,12 +27,17 @@ const { title, pageType, description, pubDate, updatedDate, heroImage } = Astro.
     class:list={[
       'font-sans',
       'bg-white text-neutral-700',
-      'md:bg-neutral-50',
+      'md:bg-neutral-50 md:p-4',
       'dark:bg-neutral-800 dark:text-neutral-300',
       'dark:md:bg-neutral-900'
     ]}
   >
-    <div>
+    <div
+      class:list={[
+        'mx-auto max-w-3xl rounded-xl shadow-sm/50 md:bg-neutral-50',
+        'dark:md:bg-neutral-800 dark:md:shadow-sm/100'
+      ]}
+    >
       <Header />
       <Main>
         <slot />
