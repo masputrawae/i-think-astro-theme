@@ -12,8 +12,25 @@ const { title, pageType, description, pubDate, updatedDate, heroImage } = Astro.
 ---
 
 <!doctype html>
-<html data-theme="light" lang={SITE.langCode} class="scroll-pt-4 scroll-smooth">
+<html data-theme="dark" lang={SITE.langCode} class="scroll-pt-4 scroll-smooth">
   <head>
+    <script>
+      ;(() => {
+        const prefers = window.matchMedia('(prefers-color-scheme: dark)')
+        const html = document.documentElement
+        const switchTheme = () => {
+          const theme = prefers.matches ? 'dark' : 'light'
+          html.setAttribute('data-theme', theme)
+        }
+
+        document.addEventListener('astro:page-load', () => {
+          prefers.addEventListener('change', () => {
+            switchTheme()
+          })
+          switchTheme()
+        })
+      })()
+    </script>
     <Head
       pageTitle={title}
       pageType={pageType}

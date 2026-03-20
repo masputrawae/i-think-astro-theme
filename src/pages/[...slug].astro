@@ -33,12 +33,12 @@ const { data } = post
         class:list={['aspect-video rounded-lg shadow-sm/50', 'dark:shadow-sm/100']}
       />
     </header>
-    <section>
+    <section class="my-4">
       <Content />
     </section>
-    <footer>
+    <footer class:list={['border-t border-neutral-200 text-sm', 'dark:border-neutral-700']}>
       <time datetime={data.pubDate.toISOString()}>
-        <span>Publish On</span>
+        <span>Publish On: </span>
         <span>{data.pubDate.toDateString()}</span>
       </time>
     </footer>

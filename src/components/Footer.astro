@@ -10,7 +10,7 @@ const { copyright } = SITE
     <nav class:list={['flex items-center justify-center gap-4 text-black', 'dark:text-white']}>
       {
         SOCIAL_LINKS.map((s) => (
-          <a {...s} class="hover:text-blue-600 dark:hover:text-blue-400">
+          <a {...s} class="hover:text-purple-600 dark:hover:text-purple-400">
             <Icon name={s.icon} size={28} />
             <span class="sr-only">{s.name}</span>
           </a>
@@ -21,7 +21,7 @@ const { copyright } = SITE
       <p class="text-sm">
         <span>Copyright &copy; 2026 {SITE.author.name}.</span>
         <span>License under</span>
-        <a href={copyright.url} class="underline hover:text-blue-600 dark:hover:text-blue-400">
+        <a href={copyright.url} class="underline hover:text-purple-600 dark:hover:text-purple-400">
           {copyright.license}
         </a>
       </p>

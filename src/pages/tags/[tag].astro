@@ -3,14 +3,13 @@ import { getCollection } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import type { CollectionEntry } from 'astro:content'
 import { SITE } from '../../consts'
-import { toUpperCase } from 'astro:schema'
 
 export async function getStaticPaths() {
   const allPosts = await getCollection('post')
   const uniqueTags = [...new Set(allPosts.map((post) => post.data.tags).flat())]
   return uniqueTags.map((tag: any) => {
-    const filteredPosts: CollectionEntry<'post'>[] = allPosts.filter((post) =>
-      post.data.tags?.includes(tag)
+    const filteredPosts: CollectionEntry<'post'>[] = allPosts.filter(
+      (post) => post.data.tags?.includes(tag) && post.id != 'index'
     )
     return {
       params: { tag },
@@ -33,16 +32,18 @@ function toTitleCase(str: string) {
 ---
 
 <BaseLayout
-  title={tag}
+  title={`Tag ${toTitleCase(tag)}`}
   pageType="website"
-  tags={SITE.keywords}
-  description={SITE.description}
+  tags={[tag]}
+  description={`List of posts with tag: ${tag}`}
   heroImage={SITE.heroImage}
   pubDate={new Date()}
   updatedDate={new Date()}
 >
-  <div class="prose">
-    <h1>{toTitleCase(tag)}</h1>
+  <header>
+    <h1>Tag: {toTitleCase(tag)}</h1>
+  </header>
+  <nav>
     <ul>
       {
         posts.map((p) => (
@@ -52,5 +53,5 @@ function toTitleCase(str: string) {
         ))
       }
     </ul>
-  </div>
+  </nav>
 </BaseLayout>

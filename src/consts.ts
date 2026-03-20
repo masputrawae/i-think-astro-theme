@@ -55,23 +55,13 @@ export const SITE: Site = {
 export const HEADER_LINKS: Link[] = [
   {
     name: 'Home',
-    icon: 'bi:house',
+    icon: 'bi:house-fill',
     href: import.meta.env.BASE_URL
-  },
-  {
-    name: 'Posts',
-    icon: 'bi:globe',
-    href: '/posts/'
   },
   {
     name: 'Tags',
     icon: 'bi:tags-fill',
     href: '/tags/'
-  },
-  {
-    name: 'About',
-    icon: 'bi:person-circle',
-    href: '/about/'
   },
   {
     name: 'Github',

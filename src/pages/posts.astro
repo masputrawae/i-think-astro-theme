@@ -15,12 +15,18 @@ const posts = (await getCollection('post')).filter((p) => p.id != 'index')
   pubDate={new Date()}
   updatedDate={new Date()}
 >
-  <div class="prose">
-    <ul>
+  <div class="not-prose">
+    <ul class="text-purple-600 dark:text-purple-400 space-y-1">
       {
         posts.map((p) => (
-          <li>
+          <li
+            class:list={[
+              'flex flex-wrap items-center justify-between',
+              'border-b border-dashed border-purple-600 dark:border-purple-400'
+            ]}
+          >
             <a href={'/' + p.id}>{p.data.title}</a>
+            <time datetime={p.data.pubDate.toISOString()}>{p.data.pubDate.toDateString()}</time>
           </li>
         ))
       }
