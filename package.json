@@ -20,6 +20,7 @@
     "astro-icon": "^1.1.5",
     "astro-loader-obsidian": "^0.10.0",
     "tailwindcss": "^4.2.2",
+    "@r4ai/remark-callout": "^0.6.2",
     "sharp": "^0.34.3"
   },
   "devDependencies": {

@@ -9,6 +9,8 @@ import mdx from '@astrojs/mdx'
 
 import icon from 'astro-icon'
 
+import remarkCallout from '@r4ai/remark-callout'
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://example.com',
@@ -59,6 +61,7 @@ export default defineConfig({
     }
   ],
   markdown: {
+    remarkPlugins: [remarkCallout],
     shikiConfig: {
       themes: {
         light: 'github-light',
