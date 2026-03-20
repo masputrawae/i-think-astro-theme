@@ -1,14 +1,14 @@
 ---
 title: Jatuh Cinta Pada TailwindCSS
 description: Pengalaman pribadiku pertama kali menggunakan TailwindCSS, yang awalnya benci jadi cinta 😁
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1764489705/grok_image_j2003u_kb0o5n.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1764489705/grok_image_j2003u_kb0o5n.jpg
 tags:
   - story
   - css
   - scss
   - tailwind
-created: 2025-12-15T15:56:19+07:00
-updated: 2025-12-30T00:36:54+07:00
+pubDate: 2025-12-15T15:56:19+07:00
+updatedDate: 2025-12-30T00:36:54+07:00
 ---
 
 Hal paling konyol yang pernah aku alami selama belajar CSS adalah penolakan keras terhadap [Tailwind](https://tailwindcss.com/). 😅 Alasannya sederhana: markup HTML-nya terlihat *sangat* berantakan. Banyaknya class yang menumpuk membuatku pusing sendiri, dan saat itu aku memutuskan untuk tidak mau menyentuh Tailwind sama sekali.

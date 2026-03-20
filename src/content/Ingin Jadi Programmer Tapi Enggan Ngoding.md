@@ -1,13 +1,13 @@
 ---
 title: Ingin Jadi Programmer Tapi Enggan Ngoding
 description: Cara bijak menggunakan AI sebagai mentor belajar, dan menghindari kemalasan belajar
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1764696025/grok_image_nj67sy_reczhk.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1764696025/grok_image_nj67sy_reczhk.jpg
 tags:
   - learning
   - tips
   - technology
-created: 2025-12-15T15:56:19+07:00
-updated: 2025-12-28T14:31:48+07:00
+pubDate: 2025-12-15T15:56:19+07:00
+updatedDate: 2025-12-28T14:31:48+07:00
 ---
 
 Bermula dari banyaknya **pembelajar bahasa pemrograman** termasuk aku sendiri, terjebak dalam kemudahan penggunaan AI. Pengalaman pribadi, aku dulu pertama kali belajar HTML, CSS, dan JavaScript aku benar-benar tidak belajar apapun, intinya cuma hasilnya yang langsung kelihatan tanpa tahu bagaimana itu bekerja. Makanya aku stuck sangat lama, bahkan hampir 5 bulan aku tidak bisa menulis kode sendiri.

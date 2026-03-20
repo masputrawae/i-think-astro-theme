@@ -1,15 +1,15 @@
 ---
 title: Satu SSG Yang Keren
 description: Pengalaman pribadi dan tanggapan ku soal AstroJS
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1765235749/grok_1765235658239_azfkzh.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1765235749/grok_1765235658239_azfkzh.jpg
 tags:
   - ssg
   - astro
   - hugo
   - javascript
   - golang
-created: 2025-12-15T15:56:19+07:00
-updated: 2025-12-27T06:10:06+07:00
+pubDate: 2025-12-15T15:56:19+07:00
+updatedDate: 2025-12-27T06:10:06+07:00
 ---
 
 Hampir satu minggu terakhir aku mencoba **Astro.js**, dan jujur, pengalaman pribadi: aku cukup kagum. Yang paling bikin suka tentu karena dia *javascript first* 😅 — di Astro beneran bisa pakai JavaScript murni (walaupun TypeScript tetap direkomendasikan).

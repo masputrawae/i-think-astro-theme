@@ -1,13 +1,13 @@
 ---
 title: Kebisingan, Izin, dan Etika Hidup Bermasyarakat
 description: Lanjutan refleksi tentang hajatan, kebisingan, dan batas kenyamanan bersama.
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1766308091/grok_1766308020438_tdspk4.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1766308091/grok_1766308020438_tdspk4.jpg
 tags:
   - public
   - law
   - society
-created: 2025-12-19T16:50:22+07:00
-updated: 2026-03-16
+pubDate: 2025-12-19T16:50:22+07:00
+updatedDate: 2026-03-16
 ---
 
 Tulisan ini adalah lanjutan dari postinganku sebelumnya, [[Fomo Hajatan Pernikahan di Desaku]]. Jika di tulisan sebelumnya aku lebih banyak membahas fenomena dan kebiasaan, kali ini aku ingin menyoroti hal yang sering luput dibicarakan: **etika, aturan, dan hukum soal kebisingan**.

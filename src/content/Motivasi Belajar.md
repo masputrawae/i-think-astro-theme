@@ -1,12 +1,12 @@
 ---
 title: Motivasi Belajar
 description: Motivasi Belajar agar aku bisa semangat kembali jika mulai kehilangan arah dan semangat
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1764695218/grok_image_gmal0m_ovmkqy.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1764695218/grok_image_gmal0m_ovmkqy.jpg
 tags:
   - motivation
   - learning
-created: 2025-12-15T15:56:19+07:00
-updated: 2025-12-28T14:33:22+07:00
+pubDate: 2025-12-15T15:56:19+07:00
+updatedDate: 2025-12-28T14:33:22+07:00
 ---
 
 Semua hal tidak ada yang instan, kuncinya adalah sabar, konsisten, dan terus berusaha. 

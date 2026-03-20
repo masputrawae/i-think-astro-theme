@@ -1,12 +1,12 @@
 ---
 title: Kebutuhan vs Keinginan
 description: Membedakan antara kebutuhan dan keinginan, agar hidup tidak selalu menuruti nafsu dan kemauan, serta meningkatkan efisiensi hidup.
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1764695218/grok_image_lczzzw_fkczdz.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1764695218/grok_image_lczzzw_fkczdz.jpg
 tags:
   - social
   - reflection
-created: 2025-12-15T15:56:19+07:00
-updated: 2025-12-28T14:32:40+07:00
+pubDate: 2025-12-15T15:56:19+07:00
+updatedDate: 2025-12-28T14:32:40+07:00
 ---
 
 Fenomena yang sering aku temui di sekitar, yaitu seseorang yang membeli barang yang sebenarnya tidak diperlukan. Mungkin nggak masalah sih jika itu memang uang sendiri atau hasil menabung dsb..., masalahnya beberapa orang membeli barang tersebut dengan cara **berhutang** atau **mencicil**. Dan seandainya barang tersebut bisa menghasilkan **profit**, mungkin jauh lebih masuk akal dan nggak ada masalah berhutang di awal. Cuma disini kasusnya hanya untuk memenuhi keinginannya saja, yang mungkin karena ingin **diakui**, **terlihat keren**, atau **takut tertinggal (*social pressure*)**.

@@ -1,14 +1,14 @@
 ---
 title: Hay Selamat Datang
 description: Tempat berbagi ide, pemikiran, pengalaman dan keluh kesah tentang kehidupan
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1766307156/grok_1766307088683_tztr5v.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1766307156/grok_1766307088683_tztr5v.jpg
 tags:
   - insight
   - idea
   - notes
   - experience
-created: 2026-03-18
-updated: 2026-03-18
+pubDate: 2026-03-18
+updatedDate: 2026-03-18
 ---
 
 Banyak hal di kepala yang tidak bisa dituliskan, atau mungkin malah tidak ada sama sekali?...

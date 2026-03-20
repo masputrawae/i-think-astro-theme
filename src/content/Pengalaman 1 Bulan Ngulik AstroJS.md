@@ -1,14 +1,14 @@
 ---
 title: Pengalaman 1 Bulan Ngulik AstroJS
 description: Pengalaman pribadi ku ketika iseng cobain AstroJS, dan perbedaan antara Hugo dan Astro dari sudut pandang ku.
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1766875888/grok_1766875760999_krpdmp.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1766875888/grok_1766875760999_krpdmp.jpg
 tags:
   - ssg
   - astro
   - hugo
   - javascript
-created: 2025-12-27T05:51:41+07:00
-updated: 2025-12-30T00:36:38+07:00
+pubDate: 2025-12-27T05:51:41+07:00
+updatedDate: 2025-12-30T00:36:38+07:00
 ---
 
 Kemarin sempat membahas tentang [[Satu SSG Yang Keren]] yaitu Astro. Entah kenapa, selama iseng-iseng mencoba bikin blog, rasanya nyaman. Aku juga sempat bilang bahwa kemungkinan besar aku **tidak akan memindahkan website ini dari Hugo ke Astro**, tapi sepertinya sekarang aku mulai berubah pikiran 🤔.

@@ -1,12 +1,12 @@
 ---
 title: Membebaskan Diri Dari Tutorial Hell
 description: Terjebak dalam neraka tutorial, dan cara ku pribadi melewati masa kritis tersebut.
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1764695218/grok_image_xg9nvil_dgedrl.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1764695218/grok_image_xg9nvil_dgedrl.jpg
 tags:
   - tips
   - tutorial
-created: 2025-12-15T15:56:19+07:00
-updated: 2025-12-27T01:58:10+07:00
+pubDate: 2025-12-15T15:56:19+07:00
+updatedDate: 2025-12-27T01:58:10+07:00
 ---
 
 Awalnya aku itu tidak tahu tentang istilah **Tutorial Hell**, dan ini sebenarnya tidak sengaja aku temukan topik tersebut di **YouTube**. Ya intinya sih sederhana, kita yang setiap hari menonton tutorial di YouTube yang ber jam-jam atau ber seris - seris, tapi ketika kita disuruh koding sendiri tanpa melihat tutorial sama sekali, tiba-tiba blank aja, dan tidak tahu harus ngapain 😅.

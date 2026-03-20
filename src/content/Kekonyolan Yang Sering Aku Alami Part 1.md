@@ -1,13 +1,13 @@
 ---
 title: Kekonyolan Yang Sering Aku Alami (Part 1)
 description: Hal yang membingungkan aku saat ini.
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1764599408/grok_image_fb0ov0_hifkrp.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1764599408/grok_image_fb0ov0_hifkrp.jpg
 tags:
   - funny
   - moment
   - incident
-created: 2025-12-15T15:56:19+07:00
-updated: 2026-01-01T02:07:51+07:00
+pubDate: 2025-12-15T15:56:19+07:00
+updatedDate: 2026-01-01T02:07:51+07:00
 ---
 
 Aku ingin terakhir kali saat membahas [[Kebutuhan vs Keinginan]], disini aku bisa menerapkannya dalam kehidupan sehari-hari, tapi tidak saat koding 🥴.

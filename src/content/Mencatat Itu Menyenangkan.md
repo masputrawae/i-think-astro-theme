@@ -1,13 +1,13 @@
 ---
 title: Mencatat Itu Menyenangkan
 description: Tips dan trik, mencatat atau membiasakan diri membangun kebiasaan mencatat dan menulis
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1764695218/grok_image_mz8nma_zwmzkv.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1764695218/grok_image_mz8nma_zwmzkv.jpg
 tags:
   - notes
   - writing
   - tips
-created: 2025-12-15T15:56:19+07:00
-updated: 2025-12-28T14:33:08+07:00
+pubDate: 2025-12-15T15:56:19+07:00
+updatedDate: 2025-12-28T14:33:08+07:00
 ---
 
 Mencatat adalah suatu hal yang menyenangkan sekaligus membingungkan, aku suka mencatat cuma kadang sering bengong dan bingung mau nulis apa. Mungkin bukan cuma aku saja yang merasakannya, tapi disini aku tidak akan curhat banyak, aku cuma mau berbagi tips kecil atau cara mencatat ala **Mas Putra 😅**.

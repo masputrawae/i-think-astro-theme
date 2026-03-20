@@ -1,14 +1,14 @@
 ---
 title: Nilai Hanyalah Angka
 description: Apa arti sebuah nilai dalam pendidikan jika kita tidak mengerti dan memahami isinya. Dan apa artinya gelar kalau hanya sebatas nilai palsu.
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1766307156/grok_1766307088683_tztr5v.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1766307156/grok_1766307088683_tztr5v.jpg
 tags:
   - knowledge
   - learning
   - number
   - validation
-created: 2025-12-21T15:40:57+07:00
-updated: 2025-12-28T14:33:33+07:00
+pubDate: 2025-12-21T15:40:57+07:00
+updatedDate: 2025-12-28T14:33:33+07:00
 ---
 
 Satu hal yang sering—atau bahkan tidak—disadari banyak orang adalah soal ujian dalam pendidikan. Dari yang aku alami dan dari sudut pandangku, orang lebih cenderung takut tidak lulus. Akibatnya, mereka melakukan berbagai cara agar berhasil dalam ujian atau mendapatkan nilai yang bagus.

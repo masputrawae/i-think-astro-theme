@@ -1,14 +1,14 @@
 ---
 title: Alasanku Masih Tetap Bertahan di Hugo
 description: Pengalaman pribadi ketika mencoba memindahkan blog ini ke Astro, dan alasan tetap memiliki untuk bertahan di Hugo.
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1767029561/grok_1767029491556_nl4hia.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1767029561/grok_1767029491556_nl4hia.jpg
 tags:
   - astro
   - hugo
   - javascript
   - golang
-created: 2025-12-29
-updated: 2026-03-13
+pubDate: 2025-12-29
+updatedDate: 2026-03-13
 ---
 
 Kemarin aku sempat menulis tentang ketertarikanku pada Astro[^1], sekaligus pengalaman pertamaku mencobanya[^2]. Sempat terpikir untuk memindahkan blog ini ke Astro, dan setelah beberapa hari benar-benar kucoba, ternyata muncul banyak masalah yang tidak sesuai dengan ekspektasiku 😅.

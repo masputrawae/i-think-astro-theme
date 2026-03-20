@@ -1,14 +1,14 @@
 ---
 title: Fomo Hajatan Pernikahan di Desaku
 description: Sudut pandang, dan tanggapan ku terkait acara hajatan di pernikahan, khususnya di desa ku sendiri.
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1764436263/grok_image_xd1jw97_xffyx4.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1764436263/grok_image_xd1jw97_xffyx4.jpg
 tags:
   - wedding
   - public
   - tradition
   - fomo
-created: 2025-12-15T15:56:19+07:00
-updated: 2025-12-28T14:31:32+07:00
+pubDate: 2025-12-15T15:56:19+07:00
+updatedDate: 2025-12-28T14:31:32+07:00
 ---
 
 Mungkin tulisan ini lebih ke analisis dan pemikiran pribadi dari seorang anak desa yang lahir dan besar di lingkungan semacam ini. Ada satu hal yang sampai sekarang masih bikin aku heran: *hajatan*, terutama pernikahan. Bukan karena aku benci atau tidak suka, bukan. Tapi ada beberapa hal yang menurutku perlu dibahas.

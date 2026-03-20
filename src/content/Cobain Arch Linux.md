@@ -1,12 +1,12 @@
 ---
 title: Cobain Arch Linux
 description: Pengalaman pertama mencoba Arch Linux dari nol tanpa tutorial.
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1773786610/image_efgh7v.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1773786610/image_efgh7v.jpg
 tags:
   - arch
   - linux
-created: 2026-03-18
-updated: 2026-03-18
+pubDate: 2026-03-18
+updatedDate: 2026-03-18
 ---
 
 Entah kepikiran dari mana, tiba-tiba aku ingin mencoba Arch Linux 🤔—yang katanya sulit di-install. Jujur, aku nggak terlalu peduli dengan kata orang, tapi ya… kenapa nggak dicoba aja 😅

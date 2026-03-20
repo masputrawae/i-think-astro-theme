@@ -1,14 +1,14 @@
 ---
 title: Chaos is Better
 description: Pendekatan mencatat pengetahuan dengan gaya chaos yang lebih jujur pada cara berpikir manusia.
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1767100163/grok_1767100070505_py8sco.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1767100163/grok_1767100070505_py8sco.jpg
 tags:
   - zettelkasten
   - obsidian
   - notes
   - writing
-created: 2025-12-30T17:41:14+07:00
-updated: 2026-01-01T02:06:50+07:00
+pubDate: 2025-12-30T17:41:14+07:00
+updatedDate: 2026-01-01T02:06:50+07:00
 ---
 
 Aku teringat pada postingan [[Mencatat Itu Menyenangkan]] dan [[Alasanku Suka Menulis Di Obsidian]]. Dulu, ada satu fase di mana aku justru lebih sibuk **mengorganisir catatan** daripada **mencatat itu sendiri**.

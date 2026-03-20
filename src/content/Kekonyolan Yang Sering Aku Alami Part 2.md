@@ -1,12 +1,12 @@
 ---
 title: Kekonyolan yang Sering Aku Alami (Part 2)
 description: Kedisiplinan yang sulit untuk aku terapkan. Mungkin seperti itu 😅
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1767244747/grok_1767244675083_ydxrgd.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1767244747/grok_1767244675083_ydxrgd.jpg
 tags:
   - moment
   - funny
-created: 2026-01-01T02:06:54+07:00
-updated: 2026-01-01T12:20:47+07:00
+pubDate: 2026-01-01T02:06:54+07:00
+updatedDate: 2026-01-01T12:20:47+07:00
 ---
 
 Aku sedikit heran dengan tingkahku sendiri 🤔.  

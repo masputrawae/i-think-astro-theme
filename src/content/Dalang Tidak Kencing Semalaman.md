@@ -1,12 +1,12 @@
 ---
 title: Dalang Tidak Kencing Semalaman
 description: Pembahasan mitos yang beredar di masyarakat, tentang seorang dalang yang tidak kencing semalaman
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1764436662/grok_image_xdypsqh_itb1md.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1764436662/grok_image_xdypsqh_itb1md.jpg
 tags:
   - culture
   - social
-created: 2025-12-15T15:56:18+07:00
-updated: 2025-12-30T00:37:06+07:00
+pubDate: 2025-12-15T15:56:18+07:00
+updatedDate: 2025-12-30T00:37:06+07:00
 ---
 
 Aku tidak tahu pasti sih, namun aku menulis ini karena kemarin di rumah terjadi perdebatan kecil. Katanya, dalang itu bisa semalaman tidak kencing karena punya mantra khusus. Aku cuma bisa mikir: lah kok bisa?

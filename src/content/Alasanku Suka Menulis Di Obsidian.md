@@ -1,12 +1,12 @@
 ---
 title: Alasanku Suka Menulis Di Obsidian
 description: Cerita tentang pengalaman pribadiku, terkait proses pembelajaran, eksplorasi, dan rintangan yang aku hadapi selama belajar dan mencatat.
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1764435961/grok_image_xcesie_mjcgxv.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1764435961/grok_image_xcesie_mjcgxv.jpg
 tags:
   - writing
   - notes
-created: 2025-12-15T15:56:19+07:00
-updated: 2025-12-21T20:17:59+07:00
+pubDate: 2025-12-15T15:56:19+07:00
+updatedDate: 2025-12-21T20:17:59+07:00
 ---
 
 Awalnya, sekitar tahun 2023, aku baru tahu ternyata aku bisa membuat Wikipedia versi pribadiku pakai MediaWiki. Waktu itu kupikir keren banget punya ensiklopedia sendiri 😁 — sayangnya aku belum paham cara instalasinya.

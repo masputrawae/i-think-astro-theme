@@ -1,13 +1,13 @@
 ---
 title: Dari Mau Nangis Kejebak Vim Sampai Jadi Pecandu Berat
 description: Cerita pengalaman pribadi soal alasanku menyukai vim, keluh kesah, dan kenapa tidak menggunakan vim lagi
-cover: https://res.cloudinary.com/mpw-img/image/upload/v1764764772/grok_image_t0b2bw_ndhqij.jpg
+heroImage: https://res.cloudinary.com/mpw-img/image/upload/v1764764772/grok_image_t0b2bw_ndhqij.jpg
 tags:
   - vim
   - text_editor
   - tools
-created: 2025-12-15T15:56:19+07:00
-updated: 2025-12-30T05:28:15+07:00
+pubDate: 2025-12-15T15:56:19+07:00
+updatedDate: 2025-12-30T05:28:15+07:00
 ---
 
 Cerita bermula di awal tahun 2022 (*seingatku* 😅). Waktu itu aku terpaksa mencoba Linux Debian, dan justru menginstal versi minimal—tanpa DE (desktop environment). Biasanya aku selalu mengandalkan `nano` sebagai teks editor CLI yang lebih friendly. Tapi entah kenapa, bukannya menginstal `nano`, aku malah iseng mengetik `vi .bashrc` (karena katanya bawaan Linux pasti ada `vi` / `vim` jadul) hanya untuk setting konfigurasi dikit.
