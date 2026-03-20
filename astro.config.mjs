@@ -58,7 +58,14 @@ export default defineConfig({
       weights: [400, 700]
     }
   ],
-
+  markdown: {
+    shikiConfig: {
+      themes: {
+        light: 'github-light',
+        dark: 'github-dark',
+      },
+    },
+  },
   vite: {
     plugins: [tailwindcss()]
   },
