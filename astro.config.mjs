@@ -26,14 +26,30 @@ export default defineConfig({
       name: 'Poppins',
       cssVariable: '--font-poppins',
       weights: [400, 600],
-      fallbacks: ["ui-sans-serif", "system-ui", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"]
+      fallbacks: [
+        'ui-sans-serif',
+        'system-ui',
+        'sans-serif',
+        'Apple Color Emoji',
+        'Segoe UI Emoji',
+        'Segoe UI Symbol',
+        'Noto Color Emoji'
+      ]
     },
     {
       provider: fontProviders.google(),
       name: 'Inter',
       cssVariable: '--font-inter',
       weights: [400, 500, 600, 700],
-      fallbacks: ["ui-sans-serif", "system-ui", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"]
+      fallbacks: [
+        'ui-sans-serif',
+        'system-ui',
+        'sans-serif',
+        'Apple Color Emoji',
+        'Segoe UI Emoji',
+        'Segoe UI Symbol',
+        'Noto Color Emoji'
+      ]
     },
     {
       provider: fontProviders.google(),

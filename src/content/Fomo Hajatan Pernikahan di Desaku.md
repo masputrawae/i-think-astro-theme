@@ -11,18 +11,20 @@ pubDate: 2025-12-15T15:56:19+07:00
 updatedDate: 2025-12-28T14:31:32+07:00
 ---
 
-Mungkin tulisan ini lebih ke analisis dan pemikiran pribadi dari seorang anak desa yang lahir dan besar di lingkungan semacam ini. Ada satu hal yang sampai sekarang masih bikin aku heran: *hajatan*, terutama pernikahan. Bukan karena aku benci atau tidak suka, bukan. Tapi ada beberapa hal yang menurutku perlu dibahas.
+Mungkin tulisan ini lebih ke analisis dan pemikiran pribadi dari seorang anak desa yang lahir dan besar di lingkungan semacam ini. Ada satu hal yang sampai sekarang masih bikin aku heran: _hajatan_, terutama pernikahan. Bukan karena aku benci atau tidak suka, bukan. Tapi ada beberapa hal yang menurutku perlu dibahas.
 
 ## 1. Aturan dan Gangguan
 
-Hal pertama yang bikin aku sedih adalah soal **aturan**, terutama soal **sound system**. Jujur, suara musiknya itu benar-benar mengganggu. Yang jadi masalah, banyak orang tidak tahu — atau mungkin tidak peduli — batas kebisingan yang sebenarnya diatur sama *perda* atau aturan pemerintah. Akhirnya suara bass dari subwoofer bisa bikin kaca dan plafon rumah bergetar semua.
+Hal pertama yang bikin aku sedih adalah soal **aturan**, terutama soal **sound system**. Jujur, suara musiknya itu benar-benar mengganggu. Yang jadi masalah, banyak orang tidak tahu — atau mungkin tidak peduli — batas kebisingan yang sebenarnya diatur sama _perda_ atau aturan pemerintah. Akhirnya suara bass dari subwoofer bisa bikin kaca dan plafon rumah bergetar semua.
 
 Yang bikin tambah stres, hajatan di desaku itu jarang cuma sehari. Rata-rata **tiga hari**. Dari jam 8 pagi sampai siang, istirahat sebentar banget habis adzan, lanjut lagi sampai sore, dan malam bisa sampai jam 10.
 
 Secara aturan, ini sebenarnya udah melanggar banget. Tapi apa daya, kebanyakan orang memilih diam. Dan karena semua orang diam, kegiatan yang mengganggu begini jadi dianggap wajar.
 
 ### Sumber Eksternal
+
 Mungkin kalau belum tahu, aku ada beberapa sumber yang membahas soal aturan ini
+
 - https://www.detikabar.com/2025/09/aturan-lengkap-sound-horeg-batas.html
 - https://www.kompas.com/jawa-timur/read/2025/08/09/214537188/resmi-ini-aturan-baru-sound-horeg-di-jatim-pelanggar-bisa-ditindak
 - https://blog.sonicline.co.id/patuhi-aturan-kebisingan-agar-acara-tidak-dibubarkan/
@@ -31,7 +33,7 @@ Mungkin kalau belum tahu, aku ada beberapa sumber yang membahas soal aturan ini
 
 Di catatan sebelumnya soal [[Kebutuhan vs Keinginan]], aku sudah bahas gimana pentingnya tahu mana yang benar-benar perlu dan mana yang cuma keinginan semata. Menurutku pribadi, daripada uang habis untuk hajatan besar, kenapa nggak dipakai untuk hal yang lebih bermanfaat? Misalnya modal usaha, investasi, atau keperluan jangka panjang lain yang bisa bikin hidup lebih stabil ke depannya.
 
-Pernikahan itu tujuannya *menikah*, bukan pestanya. Di KUA, biaya nikah di daerahku murah banget — paling mahal nggak sampai 200 ribu. Yang mahal itu justru hajatannya.
+Pernikahan itu tujuannya _menikah_, bukan pestanya. Di KUA, biaya nikah di daerahku murah banget — paling mahal nggak sampai 200 ribu. Yang mahal itu justru hajatannya.
 
 Kalau seseorang benar-benar mempertimbangkan **kebutuhan vs keinginan**, sebenarnya menikah di KUA saja sudah cukup. Surat nikah dapat, sah di mata negara, dan nggak perlu buang uang untuk kesenangan sesaat. Boleh pesta kalau mampu, tapi jangan sampai maksa diri.
 
@@ -41,7 +43,7 @@ Ini sebenarnya nggak wajib sama sekali. Tapi di masyarakat sini, kalau tidak men
 
 Nggak masalah kalau finansial stabil. Yang jadi masalah, aku lihat sendiri ada orang yang sampai pinjam uang hanya untuk “menjalankan kewajiban sosial” ini. Ini kan jadi beban buat dirinya sendiri.
 
-Sumbangan itu *boleh*. Bagus malah kalau ikhlas. Tapi jangan sampai memaksakan diri hanya karena takut stigma masyarakat. Semua orang punya kondisi berbeda, dan budaya timbal balik seperti ini tidak selalu bisa dilakukan oleh semua orang tanpa pengorbanan.
+Sumbangan itu _boleh_. Bagus malah kalau ikhlas. Tapi jangan sampai memaksakan diri hanya karena takut stigma masyarakat. Semua orang punya kondisi berbeda, dan budaya timbal balik seperti ini tidak selalu bisa dilakukan oleh semua orang tanpa pengorbanan.
 
 ## 4. Gotong Royong
 

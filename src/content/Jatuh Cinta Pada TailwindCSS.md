@@ -11,7 +11,7 @@ pubDate: 2025-12-15T15:56:19+07:00
 updatedDate: 2025-12-30T00:36:54+07:00
 ---
 
-Hal paling konyol yang pernah aku alami selama belajar CSS adalah penolakan keras terhadap [Tailwind](https://tailwindcss.com/). 😅 Alasannya sederhana: markup HTML-nya terlihat *sangat* berantakan. Banyaknya class yang menumpuk membuatku pusing sendiri, dan saat itu aku memutuskan untuk tidak mau menyentuh Tailwind sama sekali.
+Hal paling konyol yang pernah aku alami selama belajar CSS adalah penolakan keras terhadap [Tailwind](https://tailwindcss.com/). 😅 Alasannya sederhana: markup HTML-nya terlihat _sangat_ berantakan. Banyaknya class yang menumpuk membuatku pusing sendiri, dan saat itu aku memutuskan untuk tidak mau menyentuh Tailwind sama sekali.
 
 ## Scss & BEM Adalah Keindahan Bagiku
 
@@ -34,25 +34,29 @@ Bayangkan saja ketika membuat sebuah card, markup yang kutulis bisa serapih ini:
     <button class="card__btn card__btn--primary">Beli</button>
   </div>
 </div>
-````
+```
 
 Itu rapi, jelas, dan mudah dibaca.
 
 Nah, beda lagi kalau pakai [Tailwind](https://tailwindcss.com/). Markup-nya bisa terlihat seperti ini:
 
 ```html
-<div class="max-w-sm rounded-xl overflow-hidden shadow-lg bg-white">
-  <img class="w-full" src="./image.png" alt="Product">
+<div class="max-w-sm overflow-hidden rounded-xl bg-white shadow-lg">
+  <img class="w-full" src="./image.png" alt="Product" />
   <div class="px-6 py-4">
-    <h2 class="font-bold text-xl mb-2">Judul Kartu</h2>
-    <p class="text-gray-700 text-base">Ringkasan / Deskripsi...</p>
-    <span class="inline-block text-lg font-semibold text-gray-800 mt-2">Harga: Rp20.000</span>
+    <h2 class="mb-2 text-xl font-bold">Judul Kartu</h2>
+    <p class="text-base text-gray-700">Ringkasan / Deskripsi...</p>
+    <span class="mt-2 inline-block text-lg font-semibold text-gray-800">Harga: Rp20.000</span>
   </div>
-  <div class="px-6 pt-4 pb-6 flex gap-3">
-    <button class="flex-1 bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium py-3 px-6 rounded-lg transition">
+  <div class="flex gap-3 px-6 pt-4 pb-6">
+    <button
+      class="flex-1 rounded-lg bg-gray-200 px-6 py-3 font-medium text-gray-800 transition hover:bg-gray-300"
+    >
       Lihat Produk
     </button>
-    <button class="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition">
+    <button
+      class="flex-1 rounded-lg bg-blue-600 px-6 py-3 font-medium text-white transition hover:bg-blue-700"
+    >
       Beli
     </button>
   </div>

@@ -1,5 +1,5 @@
 import { defineCollection } from 'astro:content'
-import { ObsidianMdLoader } from "astro-loader-obsidian";
+import { ObsidianMdLoader } from 'astro-loader-obsidian'
 import { z } from 'astro/zod'
 import { SITE } from './consts'
 
