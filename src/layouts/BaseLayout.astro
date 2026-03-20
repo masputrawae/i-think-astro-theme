@@ -23,7 +23,15 @@ const { title, pageType, description, pubDate, updatedDate, heroImage } = Astro.
       image={heroImage}
     />
   </head>
-  <body>
+  <body
+    class:list={[
+      'font-sans',
+      'bg-white text-neutral-700',
+      'md:bg-neutral-50',
+      'dark:bg-neutral-800 dark:text-neutral-300',
+      'dark:md:bg-neutral-900'
+    ]}
+  >
     <div>
       <Header />
       <Main>

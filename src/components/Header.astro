@@ -1,27 +1,90 @@
 ---
 import { Icon } from 'astro-icon/components'
 import { SITE, HEADER_LINKS } from '../consts'
+
+const baseURL = import.meta.env.BASE_URL
 ---
 
-<header>
-  <div>
-    <h1>
-      <a href="">{SITE.title}</a>
+<header class:list={['border-b border-neutral-200', 'dark:border-neutral-700', 'font-poppins']}>
+  <div class:list={['relative flex items-center justify-between', 'min-h-16 px-4 py-2']}>
+    <h1 class:list={['font-semibold text-black', 'dark:text-white']}>
+      <a href={baseURL}>{SITE.title}</a>
     </h1>
 
-    <nav>
-      <ul>
+    <nav class="flex items-center">
+      <button id="menu-btn" class:list={['text-black', 'dark:text-white']}>
+        <Icon name="bi:list" size={28} id="menu-btn-icon-open" />
+        <Icon name="bi:x" size={32} id="menu-btn-icon-close" class="hidden" />
+      </button>
+      <ul
+        id="menu"
+        class:list={[
+          'absolute top-full left-0 w-full border-y p-4',
+          'origin-top scale-y-0 transition-all',
+          'border-neutral-200 bg-neutral-50',
+          'dark:border-neutral-700 dark:bg-neutral-800'
+        ]}
+      >
         {
-          HEADER_LINKS.map((i) => (
-            <li>
-              <a href={i.href} target={i.target}>
-                <Icon name={i.icon} />
-                <span>{i.name}</span>
-              </a>
-            </li>
-          ))
+          HEADER_LINKS.map((i) => {
+            const pathname = Astro.url.pathname
+            const subpath = pathname.match(/[^\/]+/g)
+            const isActive = i.href === pathname || i.href === baseURL + (subpath?.[0] || '')
+            const activeClass = isActive ? 'text-blue-600 dark:text-blue-400' : ''
+            return (
+              <li class:list={['py-2']}>
+                <a
+                  href={i.href}
+                  target={i.target}
+                  class:list={['flex items-center gap-2', activeClass]}
+                >
+                  <Icon name={i.icon} size={18} />
+                  <span>{i.name}</span>
+                </a>
+              </li>
+            )
+          })
         }
       </ul>
     </nav>
   </div>
 </header>
+
+<script>
+  ;(() => {
+    const d = document
+    const menuToggle = (
+      open: boolean,
+      menu: HTMLElement,
+      iOpen: HTMLElement,
+      iClose: HTMLElement
+    ): boolean => {
+      menu.classList.toggle('scale-y-0', !open)
+      menu.classList.toggle('scale-y-full', open)
+      iOpen.classList.toggle('hidden', open)
+      iClose.classList.toggle('hidden', !open)
+      return !open
+    }
+    const menuHamburer = () => {
+      let open = false
+      const btn = d.getElementById('menu-btn')
+      const menu = d.getElementById('menu')
+      const iOpen = d.getElementById('menu-btn-icon-open')
+      const iClose = d.getElementById('menu-btn-icon-close')
+      if (!btn || !menu || !iOpen || !iClose) return
+
+      btn?.addEventListener('click', (e) => {
+        e.stopPropagation()
+        open = menuToggle(open, menu, iOpen, iClose)
+      })
+      d.addEventListener('click', () => {
+        open = menuToggle(false, menu, iOpen, iClose)
+      })
+      open = menuToggle(open, menu, iOpen, iClose)
+    }
+
+    d.addEventListener('astro:page-load', () => {
+      menuHamburer()
+    })
+  })()
+</script>

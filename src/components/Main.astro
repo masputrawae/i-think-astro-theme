@@ -2,6 +2,12 @@
 
 ---
 
-<main class="prose prose-neutral dark:prose-invert mx-auto">
+<main
+  class:list={[
+    'prose prose-neutral prose-a:text-blue-600',
+    'dark:prose-invert dark:prose-a:text-blue-400',
+    'font-inter mx-auto px-4 py-16'
+  ]}
+>
   <slot />
 </main>

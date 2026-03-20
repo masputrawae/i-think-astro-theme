@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets'
 import BaseLayout from '../layouts/BaseLayout.astro'
 import { type CollectionEntry, getCollection, render } from 'astro:content'
 
@@ -13,10 +14,20 @@ type Props = CollectionEntry<'post'>
 
 const post = Astro.props
 const { Content } = await render(post)
+const { data } = post
 ---
 
-<BaseLayout {...post.data}>
-  <div class="prose">
-    <Content />
-  </div>
+<BaseLayout {...data}>
+  <header>
+    <h1>{data.title}</h1>
+    <Image
+      src={data.heroImage}
+      alt={data.title}
+      layout="constrained"
+      fetchpriority="high"
+      format="avif"
+      loading="eager"
+    />
+  </header>
+  <Content />
 </BaseLayout>

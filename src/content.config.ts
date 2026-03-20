@@ -1,10 +1,10 @@
 import { defineCollection } from 'astro:content'
-import { glob } from 'astro/loaders'
+import { ObsidianMdLoader } from "astro-loader-obsidian";
 import { z } from 'astro/zod'
 import { SITE } from './consts'
 
 const post = defineCollection({
-  loader: glob({ base: './src/content', pattern: '**/*.{md,mdx}' }),
+  loader: ObsidianMdLoader({ base: './src/content', pattern: '**/*.{md,mdx}', url: '/' }),
   schema: ({ image }) =>
     z.object({
       title: z.string(),

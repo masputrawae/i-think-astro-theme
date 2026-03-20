@@ -1,2 +1,8 @@
 @import 'tailwindcss';
 @plugin "@tailwindcss/typography";
+
+@theme inline {
+  --font-poppins: var(--font-poppins);
+  --font-inter: var(--font-inter);
+  --font-jetbrains-mono: var(--font-jetbrains-mono);
+}
