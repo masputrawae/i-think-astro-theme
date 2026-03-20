@@ -1,0 +1,27 @@
+---
+import { Icon } from 'astro-icon/components'
+import { SITE, HEADER_LINKS } from '../consts'
+---
+
+<header>
+  <div>
+    <h1>
+      <a href="">{SITE.title}</a>
+    </h1>
+
+    <nav>
+      <ul>
+        {
+          HEADER_LINKS.map((i) => (
+            <li>
+              <a href={i.href} target={i.target}>
+                <Icon name={i.icon} />
+                <span>{i.name}</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>

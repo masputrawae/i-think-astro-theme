@@ -1,13 +1,18 @@
 ---
 import type { CollectionEntry } from 'astro:content'
-import Head from '../components/base/Head.astro'
+import { SITE } from '../consts'
+
+import Head from '../components/Head.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import Main from '../components/Main.astro'
 
 type Props = CollectionEntry<'post'>['data']
 const { title, pageType, description, pubDate, updatedDate, heroImage } = Astro.props
 ---
 
 <!doctype html>
-<html>
+<html data-theme="dark" lang={SITE.langCode}>
   <head>
     <Head
       pageTitle={title}
@@ -19,6 +24,12 @@ const { title, pageType, description, pubDate, updatedDate, heroImage } = Astro.
     />
   </head>
   <body>
-    <slot />
+    <div>
+      <Header />
+      <Main>
+        <slot />
+      </Main>
+      <Footer />
+    </div>
   </body>
 </html>

@@ -1,0 +1,15 @@
+---
+import { SITE } from '../consts'
+
+const { copyright } = SITE
+---
+
+<footer>
+  <aside>
+    <p>
+      <span>Copyright (c) 2026 {SITE.author.name}.</span>
+      <span>License under</span>
+      <a href={copyright.url}>{copyright.license}</a>
+    </p>
+  </aside>
+</footer>
